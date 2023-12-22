@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Header from '../componets/Header';
-import Footer from '../componets/Footer'
+import Header from '../Componets/Header';
+import Footer from '../Componets/Footer'
 
 function DetailProducts() {
  //const [cart, Setcart] = useState('');

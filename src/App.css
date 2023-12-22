@@ -2,12 +2,13 @@
 
 body{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: fit-content;
     font-family: 'Lato';
     color: #333;
 }
 /* ******Header *******/
 header{
+  width: 33cm;
   display: flex;
   justify-content: space-between;
   padding: -6px 0 40px 0;
@@ -16,7 +17,7 @@ header{
 
 
 }
-.footer-lik{
+.Header-lik{
   padding: 30px;
   display: flex;
   position: relative;
@@ -32,9 +33,16 @@ color: white;
 .Link-Tienda{
   text-decoration: none;
   color:#fff ;
-
+  left: 21px;
+position: relative;
 }
-link.footer-lik{
+img.Link-Tienda{
+  width: 4cm;
+  height: 4cm;
+  position: relative;
+  top: -29px;
+}
+link.Header-lik{
   display: inline-block;
   font-size: 8px;
 
@@ -42,7 +50,8 @@ link.footer-lik{
 
 .header-container{
   background:#00b4d8;
-  width: 258vh;
+  width: fit-content;
+  height: 3cm;
   margin-left: -0.4cm;
 
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -53,12 +62,12 @@ link.footer-lik{
 
 }
 .icon-cart{
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   stroke: #000; 
   position: relative;
- margin-left: -1.2cm;
-  top: 0.4cm;
+ margin-left: -2cm;
+  top: -0.3cm;
  
 }
 
@@ -70,10 +79,12 @@ link.footer-lik{
   background: rgb(208, 233, 171);
   border-radius: 3px;
   width: 80px;
+  height: 30px;
   text-align: center;
   color: black;
   position: relative;
   margin-left: 6px;
+  top: 5.199999999999999px;
 }
 .inpu-Search{
   width: 90%;
@@ -89,7 +100,8 @@ link.footer-lik{
 .Container-Footer{
   background-color: red;
   height: 100px;
-  width: 258vh;
+  display: flex;
+  
   margin-left: -0.4cm;
 }
 /* products style */

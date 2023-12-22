@@ -6,6 +6,8 @@ import NotFound from './Pages/NotFound';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Home from './Pages/Home';
+import Blog from './Pages/Blog';
+import DetalleProducts from './Pages/DetalleProducts'
 
 function App() {
   const [items, setItems] = useState([]);
@@ -32,14 +34,14 @@ function App() {
       <Route path="/" element={<Layout />}>
          <Route index element={<Home/>}></Route> 
       </Route>
-       {/* <Route path='/shop' element={<Shop />} ></Route>
+    
        <Route path='/blog' element={<Blog />} ></Route>
-       <Route path='/about' element={<About />} ></Route>
+{/* 
        <Route path='/contact' element={<Contact/>} ></Route>
-       <Route path='/cart' element={<Cart/>} ></Route> 
-       <Route path='/login' element={<Login/>} ></Route>
-       <Route path='/wishlist' element={<Wishlist/>} ></Route>
-       <Route path='/detalleProducts/:id' element={<DetalleProducts/>} ></Route> */}
+       <Route path='/cart' element={<Cart/>} ></Route>  */}
+
+ 
+     <Route path='/detalleProducts/:id' element={<DetalleProducts/>} ></Route>  
        
        <Route component={<NotFound/>} ></Route>
         </Routes> 

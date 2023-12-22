@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../image/logoCarrito.png'
+import cart from '../image/Green_Cart_Icon_Grocery_Logo_(1)-transformed.png'
+import store from '../image/sotore-transformed.png'
 
 function Header() {
   return (
@@ -8,8 +10,8 @@ function Header() {
 
 
     <header>
-        <Link to='/'><h1 className='Link-Tienda'>Tienda</h1></Link>
-        <div className='footer-lik'>
+        <Link to='/'><img src={store} className='Link-Tienda'></img></Link>
+        <div className='Header-lik'>
           <button className='btn-search'>
             Search
           </button>
@@ -24,7 +26,7 @@ function Header() {
         <div className='container-icon'>
           
 
-<Link to={'/cart'}><img src={logo} className='icon-cart' alt='logo'/></Link>
+<Link to={'/cart'}><img src={cart} className='icon-cart' alt='logo'/></Link>
         </div>
     </header>
     </div>
