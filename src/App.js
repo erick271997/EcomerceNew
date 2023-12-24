@@ -8,6 +8,7 @@ import axios from 'axios';
 import Home from './Pages/Home';
 import Blog from './Pages/Blog';
 import DetalleProducts from './Pages/DetalleProducts'
+import Cart from './Pages/Cart';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -37,8 +38,8 @@ function App() {
     
        <Route path='/blog' element={<Blog />} ></Route>
 {/* 
-       <Route path='/contact' element={<Contact/>} ></Route>
-       <Route path='/cart' element={<Cart/>} ></Route>  */}
+       <Route path='/contact' element={<Contact/>} ></Route>*/}
+       <Route path='/cart' element={<Cart/>} ></Route>  
 
  
      <Route path='/detalleProducts/:id' element={<DetalleProducts/>} ></Route>  
