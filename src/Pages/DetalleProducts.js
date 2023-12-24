@@ -59,7 +59,7 @@ function DetailProducts() {
       <h2 className='price-usd'>USD</h2>
       <button className='btn-DetP' onClick={handleAddToCart}>Add to Cart</button>
     </div>
-      <Footer className='Footer-DetalleP'/>
+      <Footer/>
     </>
  );
 }

@@ -96,14 +96,7 @@ link.Header-lik{
   margin-left: -93px 
 }
 
-/* ****Footer**** */
-.Container-Footer{
-  background-color: #00b4d8;
-  height: 100px;
-  display: flex;
-  
-  margin-left: -0.4cm;
-}
+
 /* products style */
 .container-items{
 
@@ -114,7 +107,7 @@ link.Header-lik{
   justify-content: center;
   padding: 65px;
   align-content: center;
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
 
 
 }
@@ -234,7 +227,7 @@ margin-left: 89.9px;
 }
 .price-usd{
   font-size: 19px;
-    position: fixed;
+    position: absolute;
     top: 10.5cm;
     margin-left: -495px;
 }
@@ -266,4 +259,79 @@ margin-left: 89.9px;
   border-radius: 10%;
   background-color: #00b4d8;
   margin-left: 60px;
+}
+/* ****Footer**** */
+.Container-Footer{
+  background-color: #00b4d8;
+  height: auto;
+  display: flex;
+  
+  margin-left: -0.4cm;
+}
+.div-Partnet{
+  margin-left: 43px; 
+}
+.P-Partnet{
+color: #FFF;
+font-size: 23px;
+}
+.socios-h{
+  display: inline;
+  word-wrap: break-word;
+}
+.h1-Partnet{
+  color: #FFF;
+  top: 15px;
+  position: relative;
+  font-size: 16px;
+}
+.h2-Partnet{
+  color: #fff;
+  font-size: 16px;
+}
+.h3-Partnet{
+  color: #FFF;
+  top: -17px;
+  position: relative;
+  font-size: 16px;
+}
+.h4-Partnet{
+  color: #fff;
+  top: -35px;
+    position: relative;
+    font-size: 16px;
+}
+.Continer-Pro-footer{
+  margin-left: 150px;
+}
+.P-P-Footer{
+  color: #FFF;
+  font-size: 26px;
+}
+.Prod-footer-h1{
+  color: #FFF;
+  font-size: 16px;
+  top: 14px;
+    position: relative;
+}
+.Prod-footer-h2{
+  color: #FFF;
+  font-size: 16px;
+  position: relative;
+  top: -4px;
+}
+.Prod-footer-h3{
+  color: #FFF;
+  font-size: 16px;
+  top: -19px;
+  position: relative;
+}
+.Prod-footer-h4{
+  color: #FFF;
+  font-size: 16px;
+  top: -38px;
+  position: relative;
+}
+.Continer-footer-social{
+      margin-left: 58px;
 }
