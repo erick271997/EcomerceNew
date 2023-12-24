@@ -98,7 +98,7 @@ link.Header-lik{
 
 /* ****Footer**** */
 .Container-Footer{
-  background-color: red;
+  background-color: #00b4d8;
   height: 100px;
   display: flex;
   
@@ -190,4 +190,80 @@ margin-left: 89.9px;
   color:rgb(0, 0, 0);
   width: 5cm;
  }
- 
+ /* ******DeatalleProducto ********/
+ .container-des{
+  justify-content: center;
+  display: flex;
+ }
+.P-descrio{
+  width: 16cm;
+  height: 10cm;
+  justify-content: flex-start;
+  display: flex;
+  position: relative;
+  top: 2cm;
+  flex-wrap: nowrap;
+  margin-left: -20cm;
+  font-size: 3px;
+  text-align: justify;
+  
+  font: bold 20px/1 arial;
+  text-transform: uppercase;
+
+  
+}
+.p-priceDe{
+  position: absolute;
+  margin-left: -657px;
+  top: 334px;
+  width: 5cm;
+  height: -11cm;
+  font-size: 1cm;
+  font: bold 30px/1 arial;
+  text-transform: uppercase;
+  color: #0c0c0c;
+  text-shadow: 0  2px  0   rgb(192, 191, 191),
+               0  4px  0   rgb(216, 214, 214),
+               0  6px  0   rgb(208, 204, 204), 
+               0  8px  0   #ffff, 
+               0 10px  0   #ffff,
+               0 12px  0   #ffff,
+              3px 8px 15px rgba(0,0,0,0.1),
+              3px 8px  5px rgba(0,0,0,0.3);
+  
+}
+.price-usd{
+  font-size: 19px;
+    position: fixed;
+    top: 10.5cm;
+    margin-left: -495px;
+}
+.h-title{
+  width: 19cm;
+  height: 6cm;
+  font-weight: bold;
+   font-size: 30px;
+   font-family: "Arial";
+   text-shadow: 0 1px 0 rgb(10, 10, 10), 
+                0 2px 0 #070707,
+                0 3px 0 rgb(11, 10, 10),
+                0 4px 0 #000000,
+                0 5px 0 rgb(0, 0, 0),
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+   color: #FFF;
+}
+.btn-DetP{
+  width: 3cm;
+  height: 2cm;
+  position: absolute;
+  top: 11cm;
+  border-radius: 10%;
+  background-color: #00b4d8;
+  margin-left: 60px;
+}

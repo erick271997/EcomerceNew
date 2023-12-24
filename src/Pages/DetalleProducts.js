@@ -54,11 +54,12 @@ function DetailProducts() {
     
       <p className='P-descrio'>{data.description}</p>
       <p className='p-priceDe'>
-        Price: {data.price} <p className='price-usd'>USD</p>
+        Price: {data.price} 
       </p>
+      <h2 className='price-usd'>USD</h2>
       <button className='btn-DetP' onClick={handleAddToCart}>Add to Cart</button>
     </div>
-      <Footer/>
+      <Footer className='Footer-DetalleP'/>
     </>
  );
 }
