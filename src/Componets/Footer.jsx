@@ -17,6 +17,7 @@ function Footer() {
       <h5 className='h2-Partnet'> Maria Brox </h5>
       <h5 className='h3-Partnet'> Rick toz </h5>
       <h5 className='h4-Partnet'> json water </h5>
+      <p className='P-Copy'>© 2021 - Desarrollado Por: Programming Company</p>
       {/* © 2021 - Desarrollado por: */}
       </div>
      
@@ -29,6 +30,7 @@ function Footer() {
       <h5 className='Prod-footer-h3'> Childers </h5>
       <h5 className='Prod-footer-h4'> Men </h5>
      </div>
+     
      <div className='Continer-Pro-footer'>
       <p className='P-P-Footer'>Information</p>
      <a href='' className='Prod-footer-h1'> Number: +57(304)-200-3246 </a>
@@ -36,14 +38,17 @@ function Footer() {
       <h5 className='Prod-footer-h3'> Colombia </h5>
       <h5 className='Prod-footer-h4'> Cali-Valle del cauca  </h5>
      </div>
+     
      <div className='Continer-footer-social'>
       <p className='P-P-Footer'>Social networks</p>
-     <Link to='https://www.facebook.com/erick.campaz/' className=''><FaFacebook/></Link>
-      <Link to='https://www.facebook.com/erick.campaz/'className=''><FaInstagramSquare/> </Link>
-      <Link to='https://www.facebook.com/erick.campaz/'className=''><IoLogoTwitter/> </Link>
-      <Link to='https://www.facebook.com/erick.campaz/'className=''><CiLinkedin/> </Link>
+     <Link to='https://www.facebook.com/erick.campaz/' className='Link-footer-fa'><FaFacebook/></Link>
+      <Link to='https://www.facebook.com/erick.campaz/'className='Link-footer-ins'><FaInstagramSquare/> </Link>
+      <Link to='https://www.facebook.com/erick.campaz/'className='Link-footer-twi'><IoLogoTwitter/> </Link>
+      <Link to='https://www.facebook.com/erick.campaz/'className='Link-footer-lik'><CiLinkedin/> </Link>
       
      </div>
+    
+     
       </div>
       
   )

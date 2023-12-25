@@ -24,21 +24,20 @@ const Cart = () => {
       <div className='Container-CartItem'>
     
         {productos.map((producto, index) => (
-          <div  key={index}>
-              {/* <h3 className='title-productCar'>{producto.title}</h3>  */}
-            <div className='Cobtainer-title-productCar'>
+          <div className='index-Cart' key={index}>
+            <div className='Container-title-productCar'>
                <h3 className='title-productCar'>{producto.title}</h3>  
             </div>
             <div className='Cart-pro'>
-              
+                <p className='price-cart'>
+                {producto.price} - $ USD
+
+              </p>
               <figure>
                 <img src={producto.image} alt='image-Produc'/>
                 
               </figure>
-              <p className='price-cart'>
-                {producto.price} - $
-
-              </p>
+            
               
               
             </div>

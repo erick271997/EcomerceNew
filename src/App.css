@@ -189,14 +189,14 @@ margin-left: 89.9px;
   display: flex;
  }
 .P-descrio{
-  width: 16cm;
+  width: 19cm;
   height: 10cm;
   justify-content: flex-start;
   display: flex;
   position: relative;
   top: 2cm;
   flex-wrap: nowrap;
-  margin-left: -20cm;
+  margin-left: -16cm;
   font-size: 3px;
   text-align: justify;
   
@@ -260,6 +260,38 @@ margin-left: 89.9px;
   background-color: #00b4d8;
   margin-left: 60px;
 }
+ 
+/* *******Cart **********/
+
+.Car-container{
+  margin-left: 30px;
+}
+.titulo-cart{
+  font: bold 40px/1 arial;
+  text-transform: uppercase;
+}
+.title-productCar{
+  width: 19cm;
+  font: bold 20px/1 arial;
+  text-transform: uppercase;
+  color: #080808;
+ 
+}
+.index-Cart{  
+  border: rgb(246, 245, 245) 8px outset;
+width: 19cm;
+border-radius: 5px;
+margin: 5px;
+background-color: #e5ebf1;
+}
+.price-cart{
+  display: flex;
+  margin-left: 416px;
+  font-size: 29px;
+  width: 166px;
+  height: 3px;
+  
+}
 /* ****Footer**** */
 .Container-Footer{
   background-color: #00b4d8;
@@ -302,7 +334,7 @@ font-size: 23px;
     font-size: 16px;
 }
 .Continer-Pro-footer{
-  margin-left: 150px;
+  margin-left: 81px;
 }
 .P-P-Footer{
   color: #FFF;
@@ -333,5 +365,31 @@ font-size: 23px;
   position: relative;
 }
 .Continer-footer-social{
-      margin-left: 58px;
+  margin-left: 58px;
+  display: grid;
+}
+.Link-footer-fa{
+  font-size: 30px;
+  color: #FFF;
+  margin-left: 65px;
+}
+.Link-footer-ins{
+  font-size: 30px;
+  color: #FFF;
+  margin-left: 65px;
+}
+.Link-footer-twi{
+  font-size: 30px;
+  color: #FFF;
+  margin-left: 65px;
+}
+.Link-footer-lik{
+  font-size: 30px;
+  color: #FFF;
+  margin-left: 65px;
+ 
+}
+.P-Copy{
+  color: #FFF;
+  
 }
