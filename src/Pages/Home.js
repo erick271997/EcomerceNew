@@ -4,6 +4,7 @@ import ProductItem from '../Componets/ProductItem';
 function Home() {
  const [data, setData] = useState([]);
  const [firstItemName, setFirstItemName] = useState('');
+  const [total, setTotal] = useState(0);
 
 
  useEffect(() => {
