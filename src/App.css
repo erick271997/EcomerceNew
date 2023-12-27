@@ -259,7 +259,17 @@ margin-left: 89.9px;
   border-radius: 10%;
   background-color: #00b4d8;
   margin-left: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+.btn-DetP:hover {
+  background-color: #f5ecec;
+ }
+ 
+ .btn-DetP:active {
+  background-color: #FFF;
+  transform: translateY(1px);
+ }
  
 /* *******Cart **********/
 
