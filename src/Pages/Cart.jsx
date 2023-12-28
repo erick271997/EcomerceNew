@@ -53,7 +53,7 @@ const Cart = () => {
                  <img src={producto.image} alt='image-Produc' />
                 </figure>
               </div>
-              <button onClick={() => handleRemoveFromCart(producto.id)}>Eliminar</button>
+              <button className='btn-ReomeItem' onClick={() => handleRemoveFromCart(producto.id)}>Eliminar</button>
             </div>
           ))}
         </div>

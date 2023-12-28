@@ -302,6 +302,21 @@ background-color: #e5ebf1;
   height: 3px;
   
 }
+.btn-ReomeItem{
+color: rgb(19, 18, 18);
+border-radius: 50%;
+width: 1.9cm;
+height: 1cm;
+}
+
+.btn-ReomeItem:hover {
+  background-color: #db0c0c;
+ }
+ 
+ .btn-ReomeItemactive {
+  background-color: rgb(160, 37, 37);
+  transform: translateY(1px);
+ }
 /* ****Footer**** */
 .Container-Footer{
   background-color: #00b4d8;
