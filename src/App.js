@@ -10,6 +10,8 @@ import Blog from './Pages/Blog';
 import DetalleProducts from './Pages/DetalleProducts'
 import Cart from './Pages/Cart';
 
+import Information from './Pages/Information';
+
 function App() {
   const [items, setItems] = useState([]);
   
@@ -42,7 +44,8 @@ function App() {
        <Route path='/cart' element={<Cart/>} ></Route>  
 
  
-     <Route path='/detalleProducts/:id' element={<DetalleProducts/>} ></Route>  
+     <Route path='/detalleProducts/:id' element={<DetalleProducts/>} ></Route> 
+     <Route path='/information' element={<Information/>} ></Route>  
        
        <Route component={<NotFound/>} ></Route>
         </Routes> 

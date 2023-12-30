@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Header from "../Componets/Header";
 import Footer from "../Componets/Footer"
+import CartProductItem from '../Componets/CartProductItem';
 
-const Cart = () => {
+const Cart = ({producto , funtio }) => {
  const [productos, setProductos] = useState([]);
  const [total, setTotal] = useState(0);
 
@@ -40,21 +41,13 @@ const Cart = () => {
         <h1 className='titulo-cart'>Carrito de Compras</h1>
         <h2 className='Tota-h2'>Total: {total} - $ USD</h2>
         <div className='Container-CartItem'>
-          {productos.map((producto, index) => (
-            <div className='index-Cart' key={index}>
-              <div className='Container-title-productCar'>
-                <h3 className='title-productCar'>{producto.title}</h3>
-              </div>
-              <div className='Cart-pro'>
-                <p className='price-cart'>
-                 {producto.price} - $ USD
-                </p>
-                <figure>
-                 <img src={producto.image} alt='image-Produc' />
-                </figure>
-              </div>
-              <button className='btn-ReomeItem' onClick={() => handleRemoveFromCart(producto.id)}>Eliminar</button>
-            </div>
+          {productos.map((item) => (
+            <CartProductItem
+            key={item.id}
+            producto={item}
+            removeFromCart={handleRemoveFromCart}
+
+          /> 
           ))}
         </div>
       </div>
