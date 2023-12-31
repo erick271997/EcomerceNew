@@ -108,12 +108,13 @@ link.Header-lik{
   padding: 65px;
   align-content: center;
   background-color: rgb(255, 255, 255);
+  margin-left: 20px;
 
 
 }
 .Prod-items{
   overflow: hidden;
-  margin: -12px;
+  margin: -27px;
 }
 .item{
   border-radius: 10px;
@@ -317,6 +318,70 @@ height: 1cm;
   background-color: rgb(160, 37, 37);
   transform: translateY(1px);
  }
+ .next{
+  width: 3px;
+  height: auto;
+margin-left: 949px;
+  
+ }
+ .btn-Next{
+  background-color: #00b4d8;
+  position: relative;
+  top: -9px;
+  border-radius: 5px;
+width: 4cm;
+height: 1cm;
+font-size: 20px;
+ }
+
+/* Information de page */
+
+.P-informaPa{
+  font-size: 1cm;
+}
+.Container-info{
+
+  list-style: none;
+ 
+
+}
+.ul-infor{
+  list-style: none;
+  width: auto;
+  box-sizing: border-box;
+  margin: 0;
+
+  letter-spacing: 2px;
+  line-height: 60px;
+}
+.ul-infor input{
+  background-color: #dee7ef;
+  
+}
+.form-control{
+  width: 10cm;
+}
+.form-control1{
+  width: 7cm;
+}
+.form-control3{
+  width: 2cm;
+}
+.msg{
+  display: inline-table;
+  width: 11cm;
+  height: 6cm;
+  background-color: #dee7ef;
+}
+.btn-pay{
+  background-color: #bae1e8;
+  width: 3cm;
+  height: 1cm;
+  color: black;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
 /* ****Footer**** */
 .Container-Footer{
   background-color: #00b4d8;
