@@ -3,7 +3,7 @@ import Header from "../Componets/Header";
 import Footer from "../Componets/Footer"
 import CartProductItem from '../Componets/CartProductItem';
 
-const Cart = ({producto , funtio }) => {
+const Cart = () => {
  const [productos, setProductos] = useState([]);
  const [total, setTotal] = useState(0);
 
@@ -15,7 +15,7 @@ const Cart = ({producto , funtio }) => {
  };
 
  const handleRemoveFromCart = (id) => {
-    let newProducts = productos.filter((item) => item.id !== id);
+    let newProducts = productos.filter((producto) => producto.idCard !== id);
     setProductos(newProducts);
     localStorage.setItem("cart", JSON.stringify(newProducts));
     obtenerProductosDelCarrito();
@@ -25,6 +25,7 @@ const Cart = ({producto , funtio }) => {
     obtenerProductosDelCarrito();
  }, []);
 
+ // eslint-disable-next-line react-hooks/exhaustive-deps
  const calcularTotal = () => {
     const total = productos.reduce((accumulator, producto) => accumulator + producto.price, 0);
     setTotal(total);
@@ -32,7 +33,7 @@ const Cart = ({producto , funtio }) => {
 
  useEffect(() => {
     calcularTotal();
- }, [productos]);
+ }, [calcularTotal, productos]);
 
  return (
     <>
@@ -41,14 +42,13 @@ const Cart = ({producto , funtio }) => {
         <h1 className='titulo-cart'>Carrito de Compras</h1>
         <h2 className='Tota-h2'>Total: {total} - $ USD</h2>
         <div className='Container-CartItem'>
-          {productos.map((item) => (
-            <CartProductItem
-            key={item.id}
-            producto={item}
-            removeFromCart={handleRemoveFromCart}
-
-          /> 
-          ))}
+          {productos.map((producto) => {
+            return (
+              <CartProductItem key={producto.idCard}
+                               producto={producto}
+                               removeFromCart={handleRemoveFromCart}/>
+            );
+          })}
         </div>
       </div>
       <Footer />
