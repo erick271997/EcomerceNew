@@ -2,15 +2,29 @@ import React, { useState, useEffect } from 'react';
 import Header from "../Componets/Header";
 import Footer from "../Componets/Footer"
 import CartProductItem from '../Componets/CartProductItem';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
  const [productos, setProductos] = useState([]);
  const [total, setTotal] = useState(0);
+ const [nextPa, setNextPa]= useState(false)
+ 
+
+const goToNexpa=()=>{
+   if (window.innerWidth < 768){
+      document.getElementById("carrito").classList.remove('show');
+      setTimeout(()=>{document.getElementById("contenido").style.display="block"},350)
+      }else{
+         setNextPa(!nextPa)
+         }
+}
+
 
  const obtenerProductosDelCarrito = () => {
     const productosDelCarrito = localStorage.getItem('cart');
     if (productosDelCarrito) {
       setProductos(JSON.parse(productosDelCarrito));
+      setNextPa(true)
     }
  };
 
@@ -19,6 +33,8 @@ const Cart = () => {
     setProductos(newProducts);
     localStorage.setItem("cart", JSON.stringify(newProducts));
     obtenerProductosDelCarrito();
+    
+   
  };
 
  useEffect(() => {
@@ -50,6 +66,16 @@ const Cart = () => {
             );
           })}
         </div>
+        <br/>
+        <Link to="/information">
+        <div className='next'>
+      {productos.length > 0 && nextPa && (
+        <button className='btn-Next' onClick={goToNexpa}>Next
+        </button>
+        )}
+      </div>
+        </Link>
+    
       </div>
       <Footer />
     </>

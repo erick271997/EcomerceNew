@@ -8,7 +8,7 @@ body{
 }
 /* ******Header *******/
 header{
-  width: 33cm;
+  width: 31cm;
   display: flex;
   justify-content: space-between;
   padding: -6px 0 40px 0;
@@ -364,6 +364,7 @@ font-size: 23px;
 .P-P-Footer{
   color: #FFF;
   font-size: 26px;
+  margin-left: -9.5px;
 }
 .Prod-footer-h1{
   color: #FFF;
