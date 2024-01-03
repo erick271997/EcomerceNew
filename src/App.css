@@ -332,9 +332,13 @@ margin-left: 949px;
 width: 4cm;
 height: 1cm;
 font-size: 20px;
+cursor: pointer;
+ }
+ .btn-Next:hover {
+  background-color: #d8d8d8;
  }
 
-/* Information de page */
+/* Information de Pay */
 
 .P-informaPa{
   font-size: 1cm;
@@ -381,7 +385,10 @@ font-size: 20px;
   border-radius: 40px;
   cursor: pointer;
 }
+.btn-pay:hover{
+  background-color:#c7c7c7;
 
+}
 /* ****Footer**** */
 .Container-Footer{
   background-color: #00b4d8;
