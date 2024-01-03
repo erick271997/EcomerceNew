@@ -1,17 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import Footer from '../Componets/Footer'
 import Header from '../Componets/Header'
 
 function Information() {
 
 
-const Onclickpage =()=>{
+  const Onclickpage =()=>{
 
-alert("Gracias Por tu Compra, Thanks for your purchase")
-window.location= '/'
-
-}
+    // eliminar todo el localStorage
+    localStorage.clear();
+   
+    alert("Gracias Por tu Compra, Thanks for your purchase")
+    window.location= '/'
+   
+   }
 
   return (
     <>
