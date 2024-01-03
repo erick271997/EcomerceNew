@@ -114,7 +114,9 @@ link.Header-lik{
 }
 .Prod-items{
   overflow: hidden;
-  margin: -27px;
+    margin: -27px;
+    height: 449px;
+
 }
 .item{
   border-radius: 10px;
@@ -144,7 +146,8 @@ img{
     transform: scale(1.2);
   }
   .Pro-info-product{
-   
+    position: relative;
+    top: -16px;
   }
  
   .Data-price{
@@ -308,6 +311,9 @@ color: rgb(19, 18, 18);
 border-radius: 50%;
 width: 1.9cm;
 height: 1cm;
+top: -136px;
+margin-left: 413px;
+position: relative;
 }
 
 .btn-ReomeItem:hover {

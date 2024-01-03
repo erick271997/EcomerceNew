@@ -11,7 +11,7 @@ function ProductItem({ producto  }) {
     return (
         <div className='Prod-items'>
           <Link to={{pathname: `/detalleProducts/${producto.id}`}}>
-            <h6 className="Pro-id">{producto.id}</h6>
+           
         
       <figure className="container-figure">
         <img className='products'  src={producto.image} alt="products"/>
