@@ -8,7 +8,7 @@ body{
 }
 /* ******Header *******/
 header{
-  width: 31cm;
+  width: 34cm;
   display: flex;
   justify-content: space-between;
   padding: -6px 0 40px 0;
@@ -347,54 +347,62 @@ cursor: pointer;
 /* Information de Pay */
 
 .P-informaPa{
-  font-size: 1cm;
+  font-size: 52px;
+    display: flex;
+    justify-content: center;
+    
+    width: 30cm;
 }
-.Container-info{
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  list-style: none;
- 
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
 
+.bton-form-button {
+  padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+    width: 3cm;
+    height: 1cm;
+    text-align: center;
+    margin-left: 547px;
 }
-.ul-infor{
-  list-style: none;
-  width: auto;
-  box-sizing: border-box;
-  margin: 0;
+.h2-lables{
+  font-size: 15px;
+  width: 9.5cm;
+  font-family: 'Lato';
+  color: rgb(150, 147, 147);
+  font-weight: 1px;
+}
 
-  letter-spacing: 2px;
-  line-height: 60px;
-}
-.ul-infor input{
-  background-color: #dee7ef;
-  
-}
-.form-control{
-  width: 10cm;
-}
-.form-control1{
-  width: 7cm;
-}
-.form-control3{
-  width: 2cm;
-}
-.msg{
-  display: inline-table;
-  width: 11cm;
-  height: 6cm;
-  background-color: #dee7ef;
-}
-.btn-pay{
-  background-color: #bae1e8;
-  width: 3cm;
-  height: 1cm;
-  color: black;
-  border-radius: 40px;
-  cursor: pointer;
-}
-.btn-pay:hover{
-  background-color:#c7c7c7;
+label{
+  display: flex;
+  margin-left: -398px;
 
 }
+.Card{
+  position: relative;
+  margin-right: -415px;
+  width: 556px;
+
+}
+.CardNum{
+  position: relative;
+ min-width: 1px;
+}
+
 /* ****Footer**** */
 .Container-Footer{
   background-color: #00b4d8;
