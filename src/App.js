@@ -11,6 +11,7 @@ import DetalleProducts from './Pages/DetalleProducts'
 import Cart from './Pages/Cart';
 
 import Information from './Pages/Information';
+import Contact from './Pages/Contact';
 
 function App() {
   const [items, setItems] = useState([]);
@@ -39,8 +40,8 @@ function App() {
       </Route>
     
        <Route path='/blog' element={<Blog />} ></Route>
-{/* 
-       <Route path='/contact' element={<Contact/>} ></Route>*/}
+ 
+       <Route path='/contact' element={<Contact/>} ></Route>
        <Route path='/cart' element={<Cart/>} ></Route>  
 
  

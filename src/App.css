@@ -274,7 +274,159 @@ margin-left: 89.9px;
   background-color: #FFF;
   transform: translateY(1px);
  }
+
+ /* ******* Blog******** */
+ .Mision{
+
+ }
+ .h1-mision{
+  font-weight: bold;
+  font-size: 68px;
+  font-family: "Arial";
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: #FFF;
+  text-align: center;
+ }
+ .p-mision{
+
+    display: grid;
  
+    text-align: justify;
+    justify-content: center;
+    display: grid;
+    width: 21cm;
+    text-align: justify;
+    margin-left: 263px;
+    font: bold 20px/1 arial;
+    text-transform: uppercase;
+ }
+
+ /* *******Contact****** */
+ .M-socio-con{
+  margin-left: 15px;
+ }
+ .div-socio{
+  margin-left: 30px;
+  border-color: black;
+  border-width: 5px;
+  border-style: dashed;
+  width: 20cm;
+height: 7cm;
+
+  background-color: #b8babd;
+ }
+ .div-socio1{
+  margin-left: 473px;
+  border-color: black;
+  border-width: 5px;
+  border-style: dashed;
+  width: 20cm;
+height: 7cm;
+
+  background-color: #b8babd;
+ 
+ }
+ .div-estudio{
+  margin-left: 189px;
+  top: -171px;
+  position: relative;
+  padding: -41px;
+ }
+ .h-estudio{
+  font-size: 27px;
+  width: 5cm;
+  height: 1cm;
+  margin-left: 20px;
+  top: -27px;
+  position: relative;
+ }
+ .div-Na-socio{
+  margin-left: 208px;
+  top: -179px;;
+  position: relative;
+ }
+ .Na-socio{
+  display: contents;
+
+ }
+ .h1-socio-infoc{
+  font-size: 20px;
+  color: rgb(202, 18, 18);
+
+  position: relative;
+  top: -41px;
+  margin: 5px;
+  margin-left: -174px;
+  width: 5cm;
+  
+ }
+
+ 
+ .p-socio{
+  text-align: justify;
+  width: 14cm;
+  margin-left: 18px;
+  top: -58px;
+  position: relative;
+ }
+ .email-soc{
+  position: relative;
+    top: -54px;
+    margin-left: -174px;
+    font-size: 19px;
+ }
+ .numer-socio-C{
+  position: relative;
+    top: -70px;
+    margin-left: -174px;
+    font-size: 19px;
+ }
+ .Im-socio{
+  height: 39%;
+  width: 39%;
+  border-radius: 50%;
+background-color: #6c7a89;
+ }
+ .Figure-Im-socio{
+  margin-left: 4px;
+  margin-top: 10px;
+  width: 10cm;
+ }
+ .rede-sociales-conct{
+  position: relative;
+  top: -125px;
+  font-size: 30px;
+  margin-left: 171px;
+ 
+  width: 12cm;
+ }
+ .Link-cont-fa{
+   color: rgb(0, 0, 0);
+   margin-left: 12px;
+ }
+ .Link-cont-ins{
+margin-left: 25px;
+  color: rgb(0, 0, 0);
+ }
+ .Link-cont-twi{
+  color: rgb(0, 0, 0);
+  margin-left: 12px;
+ }
+ .Link-cont-lik{
+  color: rgb(0, 0, 0);
+  margin-left: 12px;
+ }
 /* *******Cart **********/
 
 .Car-container{
