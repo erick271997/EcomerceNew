@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Componets/Header'
 import Footer from '../Componets/Footer'
-import { useEffect } from 'react';
+
 
 
 function Blog() {

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../image/logoCarrito.png'
-import cart from '../image/Green_Cart_Icon_Grocery_Logo_(1)-transformed.png'
+import cart from '../image/green cart.png'
 import store from '../image/sotore-transformed.png'
 
 function Header() {
