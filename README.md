@@ -2,7 +2,8 @@ Home
 
 <img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 28 57 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/405b15b7-f40c-44a1-b748-af0459371da0">
 
-
+Product Detail
+<img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 32 35 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/04611cef-fe95-45e6-9a57-3e89eb487e46">
 
 # Getting Started with Create React App
 
