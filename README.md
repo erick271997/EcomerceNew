@@ -11,6 +11,8 @@ Cart Sh
 Information of pay
 <img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 38 59 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/d7567ab8-01a4-42f5-a667-cfe41ceffd0e">
 
+Finish
+<img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 46 11 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/0ba1535c-a05e-4292-8e1e-6a4c21ead679">
 
 # Getting Started with Create React App
 
