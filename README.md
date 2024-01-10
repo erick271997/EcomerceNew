@@ -1,3 +1,9 @@
+Home 
+
+<img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 28 57 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/405b15b7-f40c-44a1-b748-af0459371da0">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
