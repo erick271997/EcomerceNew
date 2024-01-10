@@ -5,6 +5,9 @@ Home
 Product Detail
 <img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 32 35 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/04611cef-fe95-45e6-9a57-3e89eb487e46">
 
+Cart Sh
+<img width="1277" alt="Captura de Pantalla 2024-01-09 a la(s) 9 36 05 p m" src="https://github.com/erick271997/EcomerceNew/assets/105877877/2bca21cb-983a-46e5-aa1f-b38a8a247d9f">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
